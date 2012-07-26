@@ -1,0 +1,13 @@
+<project default="default">
+
+	<target name="default">
+		<echo message="Right now this script has only a deploy target!"/>
+	</target>
+	
+    <target name="deploy">
+		<sshexec host="www.odd-e.com"
+			username="odde"
+			keyfile="${user.home}/.ssh/id_rsa"
+			command="cd web_update_scripts; chmod +x update_agile_contracts_site; ./update_agile_contracts_site"/>
+    </target>
+</project>
