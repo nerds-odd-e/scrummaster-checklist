@@ -8,6 +8,6 @@
 		<sshexec host="www.odd-e.com"
 			username="odde"
 			keyfile="${user.home}/.ssh/id_rsa"
-			command="cd web_update_scripts; chmod +x update_agile_contracts_site; ./update_agile_contracts_site"/>
+			command="cd /var/www/scrummasterchecklist; git pull"/>
     </target>
 </project>
