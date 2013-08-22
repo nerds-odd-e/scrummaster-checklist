@@ -40,11 +40,15 @@ body {
 	#header h1 {
 		font-size: 2.5em;
 	}
+
+  #container {
+		padding-top: 2em;
+	}
 }
 
 @media (max-width: 480px) {
 	#container {
-		padding: 2em 1em 1em 1em;
+		padding-top: 2em;
 	}
 
 	#header h1 {
