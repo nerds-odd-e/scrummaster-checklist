@@ -43,10 +43,6 @@ body {
 }
 
 @media (max-width: 480px) {
-  body {
-		font-size: 150%;
-	}
-
 	#container {
 		padding: 2em 1em 1em 1em;
 	}
