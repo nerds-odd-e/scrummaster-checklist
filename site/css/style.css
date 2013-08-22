@@ -30,7 +30,6 @@ body {
 }
 
 #container {
-  clear: both; 
   height: 100%; 
 	text-align: center;
 	padding: 15% 1em 1em 1em;
