@@ -14,12 +14,12 @@ body {
 	text-shadow: 1px 1px 2px #333;
 }
 
-h1 {
+#header h1 {
 	font-family: 'Special Elite', cursive;
   color: #333;
 	text-shadow: 0 2px 3px #606c88;
 	font-size: 3em;
-	margin-bottom: 0;
+	margin: 0;
 }
 
 #content {
@@ -29,18 +29,27 @@ h1 {
 	font-size: 1.3em;
 }
 
-#floater {
-  float: left; 
-  height: 40%; 
-  margin-bottom: -200px;
-}
-
 #container {
   clear: both; 
-  height: 300px; 
-  position: relative;
+  height: 100%; 
 	text-align: center;
-	padding: 1em;
+	padding: 15% 1em 1em 1em;
+}
+
+@media (max-width: 767px) {
+	#header h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 480px) {
+	#container {
+		padding: 2em 1em 1em 1em;
+	}
+
+	#header h1 {
+		font-size: 2em;
+	}
 }
 
 a {
