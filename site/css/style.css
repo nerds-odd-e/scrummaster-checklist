@@ -12,6 +12,7 @@ body {
 	font-family: 'Molengo', sans-serif;
 	color: #eee;
 	text-shadow: 1px 1px 2px #333;
+	text-rendering: optimizeLegibility;
 }
 
 #header h1 {
@@ -42,6 +43,10 @@ body {
 }
 
 @media (max-width: 480px) {
+  body {
+		font-size: 150%;
+	}
+
 	#container {
 		padding: 2em 1em 1em 1em;
 	}
