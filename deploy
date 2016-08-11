@@ -1,0 +1,5 @@
+#!/bin/bash
+ssh odde@www.odd-e.com bash -le <<EOF
+cd /var/www/agilereference
+git pull
+EOF
