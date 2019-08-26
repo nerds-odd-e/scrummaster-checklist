@@ -1,74 +1,44 @@
-@import url(http://fonts.googleapis.com/css?family=Special+Elite|Molengo);
 
 body {
-  background: #606c88;
-  background: -moz-radial-gradient(center, ellipse cover,  #606c88 0%, #3f4c6b 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#606c88), color-stop(100%,#3f4c6b));
-  background: -webkit-radial-gradient(center, ellipse cover,  #606c88 0%,#3f4c6b 100%);
-  background: -o-radial-gradient(center, ellipse cover,  #606c88 0%,#3f4c6b 100%);
-  background: -ms-radial-gradient(center, ellipse cover,  #606c88 0%,#3f4c6b 100%);
-  background: radial-gradient(ellipse at center,  #606c88 0%,#3f4c6b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 );
-	font-family: 'Molengo', sans-serif;
-	color: #eee;
-	text-shadow: 1px 1px 2px #333;
-	text-rendering: optimizeLegibility;
-}
-
-#header h1 {
-	font-family: 'Special Elite', cursive;
-  color: #333;
-	text-shadow: 0 2px 3px #606c88;
-	font-size: 3em;
-	margin: 0;
-}
-
-#content {
-	margin: 0 auto;
-	text-align: left;
-	display: inline-block;
-	font-size: 1.3em;
+   padding: 40px;
+   color: #7e8184;
+   font-family: 'Lato', sans-serif;
 }
 
 #container {
-  height: 100%; 
-	text-align: center;
-	padding: 15% 1em 1em 1em;
+   margin: 0 auto;
+   max-width: 580px;
 }
 
-@media (max-width: 767px) {
-	#header h1 {
-		font-size: 2.5em;
-	}
-
-  #container {
-		padding-top: 2em;
-	}
+header {
+   text-align: center;
 }
 
-@media (max-width: 480px) {
-	#container {
-		padding-top: 2em;
-	}
+header h1 {
+   border-bottom: 1px solid #555;
+   font-size: 40px;
+   font-family: 'Oswald', sans-serif;
+   margin-bottom: 0px;
+}	
 
-	#header h1 {
-		font-size: 2em;
-	}
+header p {
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+
+footer {
+   border-top: 1px solid #555;
+   text-align: center;
+   font-size: 10px;   
+   padding-top: 40px;
 }
 
 a {
-	color: #eecd86;
-	text-decoration: none;
+   color: #3d7cc6;
+   text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
-}
-
-#footer {
-	font-size: 0.7em;
-	margin-top: 5em;
-	padding: 3em;
-}
-
-
+   text-decoration: underline;
+   color: #76aeed;
+}	
