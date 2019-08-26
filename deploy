@@ -1,5 +1,5 @@
 #!/bin/bash
 ssh odde@www.odd-e.com bash -le <<EOF
-cd /var/www/sites/scrummasterchecklist.org
+cd /var/www/scrummasterchecklist
 git pull
 EOF
