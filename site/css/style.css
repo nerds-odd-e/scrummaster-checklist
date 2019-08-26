@@ -19,11 +19,12 @@ header h1 {
    font-size: 40px;
    font-family: 'Oswald', sans-serif;
    margin-bottom: 0px;
+   color: #555;
 }	
 
 header p {
    margin-top: 5px;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
 }
 
 footer {
